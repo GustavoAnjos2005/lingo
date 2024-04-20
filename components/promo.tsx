@@ -7,18 +7,18 @@ export const Promo = () => {
         <div className="border-2 rounded-xl p-4 space-y-4">
             <div className="space-y-2">
                 <div className="flex items-center gap-x-2">
-                    <Image src="/unlimited.svg" alt="Pro" height={26} width={26}/>
+                    <Image src="/heart.svg" alt="heart" height={26} width={26}/>
                     <h3 className="font-bold text-lg">
-                        Upgrade para o Pro
+                        Recarregue sua vida!
                     </h3>
                 </div>
                 <p className="text-muted-foreground">
-                    Ganhe vida ilimitada e muito mais!
+                    Se por acasso acabou os seus corações, por favor recarregue!
                 </p>
             </div>
             <Button asChild variant="super" className="w-full" size="lg">
             <Link href="/shop">
-                Upgrade!
+                RECARREGAR!
             </Link>
             </Button>
         </div>
